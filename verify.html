@@ -38,17 +38,13 @@
             <img class="logo" src="../img/logo2.png"  width="500" height="500">
             <h1>Verificación de Usuario</h1>
 
-            <form id="signinm">
-                <label for="username">Correo Electronico</label>
-                <input type="text"  placeholder="Correo electronico">
+            <form id="verifyForm">
+              <input type="email" id="emailInputVerify" placeholder="Email" required>
+              <input type="text" id="codeInputVerify" placeholder="Código de Verificación" pattern=".*" required>
 
-                <label for="password">Codigo de Verificación</label>
-                <input type="password"   placeholder="Codigo">
-
-                <input type="Submit" value="Verificar" >
-
-                <a href="#">Olvidaste tu contraseña?</a>
+              <input type="submit" value="Verify">
             </form>
+            
         </section>
 
         <script src="../js/config.js"></script>
