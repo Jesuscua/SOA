@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="../css/font.css">
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/message.css">
-        <link rel="stylesheet" href="../css/styles.css"
+        <link rel="stylesheet" href="../css/styles.css">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -43,13 +43,13 @@
 
             <form id="signinForm">
                 <label for="username">Nombre de Usuario</label>
-                <input type="text" placeholder="Correo electronico">
+                <input type="email" placeholder="Correo electronico" id="emailInputRegister"  pattern=".*" required>
 
                 <label for="password">Contraseña</label>
-                <input type="password" placeholder="Contraseña">
+                <input type="password" placeholder="Contraseña" id="passwordInputRegister"  pattern=".*" required>
 
                 <label for="password">Confirmar Contraseña</label>
-                <input type="password" placeholder="Confirmar Contraseña">
+                <input type="password" placeholder="Confirmar Contraseña"  id="password2InputRegister"  pattern=".*" required>
 
                 <input type="Submit" value="Ingresar" >
 
