@@ -1,6 +1,6 @@
 /*global WildRydes _config*/
 
-var WildRydes = window.WildRydes || {};
+var SOARydes = window.SOARydes || {};
 WildRydes.map = WildRydes.map || {};
 
 (function esriMapScopeWrapper($) {
@@ -18,7 +18,7 @@ WildRydes.map = WildRydes.map || {};
         Graphic, Point, TextSymbol,
         PictureMarkerSymbol, webMercatorUtils
     ) {
-        var wrMap = WildRydes.map;
+        var wrMap = SOARydes.map;
 
         var map = new Map({ basemap: 'gray-vector' });
 
