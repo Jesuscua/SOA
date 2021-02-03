@@ -1,0 +1,35 @@
+.todo {
+}
+#cabecera {
+	opacity: 1;
+	text-align: center;
+
+}
+#contenido {
+	min-height: 401px;
+
+}
+#footer {
+}
+#img1 {
+	height: 20%;
+	width: 100%;
+
+}
+#img2 {
+	height: 30%;
+	width: 100%;
+}
+body {
+}
+
+.ima img{
+    width: 10em;
+    height: 5em;
+    border-radius: .5em;
+    border: .1em lightgray solid;
+    box-shadow: 0 .5em .5em;
+    opacity: 0;
+    display: block;
+    transition: 2.5s;
+}
